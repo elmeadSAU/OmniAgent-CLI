@@ -17,12 +17,13 @@ pip install -r requirements.txt
 
 Set your personal Gemini API key variable:
 export GEMINI_API_KEY="your_api_key_here"
-
+```
 
 ### 2. Execution Run
+```bash
 python3 agent.py "Inspect test_metrics.csv, check for missing parameters, and run a python script that fills missing numeric parameters with the average score of the 
 column."
-
+```
 ---
 
 ## 🗺️ Future Roadmap
