@@ -1,0 +1,5 @@
+PatientID,AntigenScore,Consistency
+P001,89.4,High
+P002,,Medium
+P003,94.1,Low
+P004,72.3,
