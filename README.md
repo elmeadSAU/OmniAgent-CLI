@@ -29,6 +29,7 @@ column."
 
 Track upcoming features and architectural expansions planned for the core framework:
 
-- [ ] **Local Vector Storage Integration (RAG)**: Implement localized vector indexing to allow the agent to reference historical local execution context.
-- [ ] **Automated Dependency Management**: Enable the shell engine to dynamically identify missing packages from stderr tracebacks and execute pip install automatically.
-- [ ] **Web Interface Dashboard**: Build a lightweight web UI to monitor the agent's multi-tool execution chains in real-time.
+- [ ] __Local Vector Storage Integration (RAG):__ Implement localized vector indexing to allow the agent to reference historical local execution context.
+- [ ] __Automated Dependency Management:__ Enable the shell engine to dynamically identify missing packages from stderr tracebacks and execute pip install 
+automatically.
+- [ ] __Web Interface Dashboard:__ Build a lightweight web UI to monitor the agent's multi-tool execution chains in real-time.
