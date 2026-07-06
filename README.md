@@ -22,3 +22,14 @@ export GEMINI_API_KEY="your_api_key_here"
 ### 2. Execution Run
 python3 agent.py "Inspect test_metrics.csv, check for missing parameters, and run a python script that fills missing numeric parameters with the average score of the 
 column."
+
+---
+
+## 🗺️ Future Roadmap
+
+Track upcoming features and architectural expansions planned for the core framework:
+
+* **[ ] Local Vector Storage Integration (RAG):** Implement localized vector indexing to allow the agent to reference historical local execution context.
+* **[ ] Automated Dependency Management:** Enable the shell engine to dynamically identify missing packages from `stderr` tracebacks and execute `pip install` 
+automatically.
+* **[ ] Web Interface Dashboard:** Build a lightweight web UI to monitor the agent's multi-tool execution chains in real-time.
